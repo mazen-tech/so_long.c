@@ -31,6 +31,23 @@ SRC			=	src/die.c \
 				src/so_long.c \
 				src/update.c
 
+SRCBONUS	=	bonus/die_bonus.c \
+				bonus/draw_bonus.c \
+				bonus/event_bonus.c \
+				bonus/game_destroy_bonus.c \
+				bonus/game_init_bonus.c \
+				bonus/map_height_bonus.c \
+				bonus/map_init_bonus.c \
+				bonus/map_isvalid_bonus.c \
+				bonus/map_parsing_bonus.c \
+				bonus/map_read_bonus.c \
+				bonus/map_width_bonus.c \
+				bonus/mlx_utils_bonus.c \
+				bonus/move_player_bonus.c \
+				bonus/root_destroy_bonus.c \
+				bonus/root_init_bonus.c \
+				bonus/so_long_bonus.c \
+				bonus/update_bonus.c
 
 all:		$(MLX) $(LFT) $(NAME)
 

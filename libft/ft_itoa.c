@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jotavare <jotavare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: maabdela <maabdela@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/17 02:48:14 by jotavare          #+#    #+#             */
-/*   Updated: 2023/01/17 02:48:14 by jotavare         ###   ########.fr       */
+/*   Created: 2024/03/17 02:48:14 by maabdela          #+#    #+#             */
+/*   Updated: 2024/03/17 02:48:14 by maabdela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 static int	ft_get_size(int n)
